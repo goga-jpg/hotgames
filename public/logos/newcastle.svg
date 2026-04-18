@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" width="100" height="110">
+  <path d="M50 4 L92 18 V60 Q92 90 50 106 Q8 90 8 60 V18 Z" fill="#000" stroke="#fff" stroke-width="3"/>
+  <rect x="20" y="30" width="10" height="50" fill="#fff"/>
+  <rect x="45" y="30" width="10" height="50" fill="#fff"/>
+  <rect x="70" y="30" width="10" height="50" fill="#fff"/>
+  <text x="50" y="95" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="9" fill="#fff">NEWCASTLE</text>
+</svg>

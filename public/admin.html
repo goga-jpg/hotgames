@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>hotgames · Creative builder</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="./admin.css"/>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="a">hot</span><span class="b">games</span>
+  </div>
+  <div class="sub">Football betting creative generator · dynamic odds · dynamic logos · IAB sizing</div>
+</header>
+
+<main>
+  <section class="controls">
+    <div class="card">
+      <h3>1. Match &amp; odds</h3>
+      <label>Fixture
+        <select id="fixture"></select>
+      </label>
+      <div class="preview-meta" id="matchMeta"></div>
+      <button id="refreshFixtures" class="ghost">Refresh from odds API</button>
+    </div>
+
+    <div class="card">
+      <h3>2. Ad size (IAB)</h3>
+      <label>Size
+        <select id="size"></select>
+      </label>
+      <div class="preview-meta" id="sizeMeta"></div>
+    </div>
+
+    <div class="card">
+      <h3>3. Dynamic placements</h3>
+      <p class="hint">Each row controls where an element sits inside the ad, in % of the ad box. Preview updates live.</p>
+      <table id="placementTable">
+        <thead><tr><th>Element</th><th>x</th><th>y</th><th>w</th><th>h</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div class="row">
+        <button id="resetLayout" class="ghost">Reset to preset</button>
+        <button id="copyLayout" class="ghost">Copy layout JSON</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>4. Ship it</h3>
+      <label>Embed snippet</label>
+      <textarea id="snippet" readonly rows="4"></textarea>
+      <div class="row">
+        <button id="copySnippet">Copy ad tag</button>
+        <a id="openCreative" class="button" target="_blank">Open creative</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stage">
+    <div class="stage-head">
+      <span id="stageTitle">Live preview</span>
+      <span id="stageDims"></span>
+    </div>
+    <div class="stage-body">
+      <div class="stage-frame" id="stageFrame">
+        <iframe id="preview" title="Creative preview"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="./admin.js"></script>
+</body>
+</html>

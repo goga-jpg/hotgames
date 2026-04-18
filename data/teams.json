@@ -1,0 +1,12 @@
+{
+  "teams": [
+    { "slug": "manchester-city",   "display": "Manchester City",   "aliases": ["Man City", "MCI", "Man. City"] },
+    { "slug": "arsenal",           "display": "Arsenal",           "aliases": ["ARS", "Arsenal FC"] },
+    { "slug": "chelsea",           "display": "Chelsea",           "aliases": ["CHE", "Chelsea FC"] },
+    { "slug": "liverpool",         "display": "Liverpool",         "aliases": ["LIV", "Liverpool FC"] },
+    { "slug": "manchester-united", "display": "Manchester United", "aliases": ["Man United", "Man Utd", "MUN"] },
+    { "slug": "tottenham",         "display": "Tottenham Hotspur", "aliases": ["Spurs", "TOT", "Tottenham"] },
+    { "slug": "newcastle",         "display": "Newcastle United",  "aliases": ["Newcastle", "NEW"] },
+    { "slug": "aston-villa",       "display": "Aston Villa",       "aliases": ["Villa", "AVL"] }
+  ]
+}

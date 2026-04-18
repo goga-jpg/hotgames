@@ -1,0 +1,16 @@
+{
+  "name": "hotgames",
+  "version": "0.1.0",
+  "description": "Automated football betting creative platform with dynamic odds and team logos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
