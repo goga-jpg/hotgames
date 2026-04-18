@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" width="100" height="110">
+  <path d="M50 4 L92 18 V60 Q92 90 50 106 Q8 90 8 60 V18 Z" fill="#1B458F" stroke="#C4122E" stroke-width="3"/>
+  <rect x="8" y="38" width="84" height="10" fill="#C4122E"/>
+  <path d="M30 70 L50 50 L70 70 L66 80 L50 68 L34 80 Z" fill="#fff"/>
+  <text x="50" y="100" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="9" fill="#fff">CRYSTAL PALACE</text>
+</svg>

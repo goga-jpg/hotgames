@@ -69,13 +69,32 @@ coordinates live, preview the result and copy an `<iframe>` ad tag.
 
 ## Adding team logos
 
-Drop any `svg` / `png` / `jpg` file into `public/logos/`. The filename (minus
-extension) becomes the slug. To support alternative names returned by the
-odds feed, add aliases in `data/teams.json`:
+Drop any `svg` / `png` / `jpg` file into `public/logos/` (and `docs/logos/`
+for the Pages build). The filename (minus extension) becomes the slug. To
+support alternative names returned by the odds feed, add aliases in
+`data/teams.json`:
 
 ```json
 { "slug": "manchester-city", "display": "Manchester City", "aliases": ["Man City", "MCI"] }
 ```
+
+### Fetching real Wikipedia crests
+
+The repo ships with stylized placeholder badges for all 20 current-season
+clubs so the platform works offline. To replace them with the actual crests
+hosted on Wikipedia, run (on a machine with egress to `*.wikimedia.org` —
+the Claude Code sandbox does not have this):
+
+```bash
+python3 scripts/fetch-logos.py            # all 20 clubs
+python3 scripts/fetch-logos.py --slug arsenal
+```
+
+The script resolves each club's infobox image via the MediaWiki API,
+downloads the original (SVG where available), writes to both
+`public/logos/` and `docs/logos/`, and rewrites `docs/data/logos.json` so
+the browser build picks them up. Club crests are trademarked; make sure
+your distribution is compatible with whatever terms apply.
 
 ## Customising the base creative
 

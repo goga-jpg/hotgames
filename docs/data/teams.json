@@ -1,12 +1,24 @@
 {
   "teams": [
-    { "slug": "manchester-city",   "display": "Manchester City",   "aliases": ["Man City", "MCI", "Man. City"] },
-    { "slug": "arsenal",           "display": "Arsenal",           "aliases": ["ARS", "Arsenal FC"] },
-    { "slug": "chelsea",           "display": "Chelsea",           "aliases": ["CHE", "Chelsea FC"] },
-    { "slug": "liverpool",         "display": "Liverpool",         "aliases": ["LIV", "Liverpool FC"] },
-    { "slug": "manchester-united", "display": "Manchester United", "aliases": ["Man United", "Man Utd", "MUN"] },
-    { "slug": "tottenham",         "display": "Tottenham Hotspur", "aliases": ["Spurs", "TOT", "Tottenham"] },
-    { "slug": "newcastle",         "display": "Newcastle United",  "aliases": ["Newcastle", "NEW"] },
-    { "slug": "aston-villa",       "display": "Aston Villa",       "aliases": ["Villa", "AVL"] }
+    { "slug": "arsenal",           "display": "Arsenal",                 "aliases": ["ARS", "Arsenal FC"] },
+    { "slug": "aston-villa",       "display": "Aston Villa",             "aliases": ["Villa", "AVL"] },
+    { "slug": "bournemouth",       "display": "AFC Bournemouth",         "aliases": ["Bournemouth", "BOU", "The Cherries"] },
+    { "slug": "brentford",         "display": "Brentford",               "aliases": ["BRE", "The Bees"] },
+    { "slug": "brighton",          "display": "Brighton & Hove Albion",  "aliases": ["Brighton", "BHA", "The Seagulls"] },
+    { "slug": "burnley",           "display": "Burnley",                 "aliases": ["BUR", "The Clarets"] },
+    { "slug": "chelsea",           "display": "Chelsea",                 "aliases": ["CHE", "Chelsea FC"] },
+    { "slug": "crystal-palace",    "display": "Crystal Palace",          "aliases": ["Palace", "CRY", "The Eagles"] },
+    { "slug": "everton",           "display": "Everton",                 "aliases": ["EVE", "The Toffees"] },
+    { "slug": "fulham",            "display": "Fulham",                  "aliases": ["FUL", "The Cottagers"] },
+    { "slug": "leeds",             "display": "Leeds United",            "aliases": ["Leeds", "LEE", "LUFC"] },
+    { "slug": "liverpool",         "display": "Liverpool",               "aliases": ["LIV", "Liverpool FC", "The Reds"] },
+    { "slug": "manchester-city",   "display": "Manchester City",         "aliases": ["Man City", "MCI", "Man. City"] },
+    { "slug": "manchester-united", "display": "Manchester United",       "aliases": ["Man United", "Man Utd", "MUN"] },
+    { "slug": "newcastle",         "display": "Newcastle United",        "aliases": ["Newcastle", "NEW", "The Magpies"] },
+    { "slug": "nottingham-forest", "display": "Nottingham Forest",       "aliases": ["Nott'm Forest", "Forest", "NFO", "NOT"] },
+    { "slug": "sunderland",        "display": "Sunderland",              "aliases": ["SAFC", "SUN", "The Black Cats"] },
+    { "slug": "tottenham",         "display": "Tottenham Hotspur",       "aliases": ["Spurs", "TOT", "Tottenham"] },
+    { "slug": "west-ham",          "display": "West Ham United",         "aliases": ["West Ham", "WHU", "The Hammers"] },
+    { "slug": "wolves",            "display": "Wolverhampton Wanderers", "aliases": ["Wolves", "WOL", "Wolverhampton"] }
   ]
 }

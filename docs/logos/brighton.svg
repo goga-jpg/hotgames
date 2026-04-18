@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" width="100" height="110">
+  <path d="M50 4 L92 18 V60 Q92 90 50 106 Q8 90 8 60 V18 Z" fill="#0057B8" stroke="#fff" stroke-width="3"/>
+  <rect x="8"  y="18" width="14" height="72" fill="#fff"/>
+  <rect x="36" y="18" width="14" height="72" fill="#fff"/>
+  <rect x="64" y="18" width="14" height="72" fill="#fff"/>
+  <path d="M30 58 Q40 48 50 52 Q60 48 70 58 Q62 54 50 58 Q38 54 30 58 Z" fill="#0057B8"/>
+  <text x="50" y="76" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="9" fill="#0057B8">BRIGHTON</text>
+  <text x="50" y="100" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="8" fill="#fff">&amp; HOVE ALBION</text>
+</svg>
