@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" width="100" height="110">
+  <path d="M50 4 L92 18 V60 Q92 90 50 106 Q8 90 8 60 V18 Z" fill="#EF0107" stroke="#023474" stroke-width="3"/>
+  <path d="M20 55 L80 55 L70 62 L30 62 Z" fill="#fff"/>
+  <circle cx="50" cy="50" r="6" fill="#023474"/>
+  <path d="M35 60 L50 78 L65 60" fill="#023474"/>
+  <text x="50" y="28" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="13" fill="#fff">ARSENAL</text>
+  <text x="50" y="95" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="7" fill="#fff">FC</text>
+</svg>

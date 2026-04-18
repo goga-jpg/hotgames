@@ -32,6 +32,22 @@ standard IAB ad size.
   `size`, `match` and optional `layout` from the query string — that same URL
   is what the ad server embeds.
 
+## View on GitHub Pages
+
+A fully static build lives under [`docs/`](./docs) and is deployed by
+`.github/workflows/pages.yml` on every push to `main` or the feature branch.
+Once Pages is enabled in the repo (Settings → Pages → Source: **GitHub
+Actions**), the admin UI appears at
+
+```
+https://<owner>.github.io/<repo>/            ← admin + live preview
+https://<owner>.github.io/<repo>/creative/   ← embeddable ad unit
+```
+
+The static build is mock-only (fixtures come from
+`docs/data/fixtures.json`). Live odds via the-odds-api.com require the
+Express backend below (static hosting can't keep an API key secret).
+
 ## Run
 
 ```bash
